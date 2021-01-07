@@ -1,0 +1,240 @@
+body{
+  font-family: 'Lato', sans-serif;
+  margin: 70px 120px 0 120px;
+  background-color: #f5f5f5;
+}
+
+.text{
+  font-family: sans-serif;
+}
+
+img{
+  max-width: 100%;
+  border: 1px solid #d8d8d8;
+}
+
+.name{
+  font-weight:bold;
+  font-size: 40px;
+  font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;;
+  letter-spacing: 2px;
+}
+
+
+.title{
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 50px;
+  padding-top: 40px;
+
+}
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0 30px 0;
+}
+
+h1{
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  }
+
+  li{
+    padding: 16px;
+    text-align: center;
+  }
+
+  li a{
+    color: black;
+    text-decoration: none;
+
+  }
+  li a:hover{
+    color: black;
+    opacity: 0.6;
+  }
+
+  @media screen and (max-width:768px){
+    h1{
+      padding: 16px 0;
+      margin: 0 auto;
+    }
+    .header-menu{
+      width: 100%;
+    }
+    ul{
+      padding: 0;
+    }
+    li{
+      width: 50%;
+      border: 1px solid #d8d8d8;
+    }
+
+  }
+  .about-area{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom:20px ;
+
+  }
+  .about-area-img{
+    width: 40%;
+    padding-bottom: 22px;
+  }
+  .about-area-img img{
+    border-radius: 50%;
+  }
+
+
+  .about-area-description{
+    width: 60%;
+    padding: 16px;
+  }
+
+  .about-area-description-text{
+    padding-left: 18px;
+  }
+
+  .about-area-description-icon{
+    display: flex;
+    padding-top: 16px;
+    float: right;
+  }
+
+  .fa-twitter{
+    margin-right: 16px;
+    color: #797979;
+    font-size: 30px;
+    opacity: 0.8;
+  }
+
+  .fa-instagram{
+    color: #797979;
+    font-size: 30px;
+    opacity: 0.8;
+  }
+  /* .fa-facebook-f{
+    color: #1877f2;
+    font-size: 50px;
+    opacity: 0.8;
+  } */
+  .about-area-description-icon a:hover{
+    opacity: 0.6;
+  }
+
+
+  @media screen and (max-width:768px){
+    .about-area-description-icon{
+    float: none;
+    display: block;
+    text-align: center;
+    }
+    .about-area-img{
+      width: 100%;
+    }
+    .about-area-description{
+      width: 100%;
+    }
+  }
+
+#service h3{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+.service-icon{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 40px;
+  color: #636363;
+}
+
+
+
+#works img{
+  margin-bottom: 40px;
+}
+
+.form{
+  width: 400px;
+  margin: 0 auto 40px;
+
+}
+label{
+  display: block;
+}
+
+input{
+  display: block;
+  width: 100%;
+}
+textarea{
+  display: block;
+  width: 100%;
+}
+
+.form-content{
+  margin-bottom: 16px;
+}
+
+button{
+  background-color: #6c6565;
+  color: white;
+  width: 250px;
+  padding: 14px;
+  text-align: center;
+  display: block;
+  margin: 0 auto 80px;
+  border-radius: 50px;
+  
+}
+
+
+button:hover{
+  opacity: 0.8;
+}
+
+@media screen and (max-width:768px){
+  body{
+    margin: 70px 50px 0 60px;
+  }
+  .form{
+    width: 100%;
+    margin: 0 auto 40px;
+  
+  }
+}
+.form-text{
+  /* text-align: center; */
+}
+span{
+  background-color: rgb(237, 129, 129);
+  color: white;
+  margin-left: 1px;
+  padding: 0 4px;
+  font-size: 12px;
+}
+
+footer{
+  text-align: center;
+
+}
+
+.col-xs-12{
+  padding: 0 25px;
+}
+
+.copyright{
+  position: relative;
+  bottom: 0;
+}
