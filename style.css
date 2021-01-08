@@ -26,7 +26,6 @@ img{
   padding-bottom: 50px;
   font-size: 50px;
   padding-top: 40px;
-
 }
 
 .header{
@@ -142,7 +141,7 @@ ul{
     }
     .about-area-img{
       width: 100%;
-      margin: 0 15px;
+      margin: 0 70px;
     }
     .about-area-description{
       width: 100%;
@@ -169,8 +168,16 @@ ul{
 
 
 
+
+.work-img{
+  display: block;
+}
 #works img{
+  width: 100%;
   margin-bottom: 40px;
+  height:220px;
+  /* width: 400px; */
+  object-fit: cover;
 }
 
 .form{
@@ -214,7 +221,7 @@ button:hover{
 
 @media screen and (max-width:768px){
   body{
-    margin: 20px 30px 0 30px;
+    margin: 20px 40px 0 40px;
   }
   .form{
     width: 100%;
