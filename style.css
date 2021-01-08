@@ -10,7 +10,7 @@ body{
 
 img{
   max-width: 100%;
-  border: 1px solid #d8d8d8;
+  border: 1px solid #919191;
 }
 
 .name{
@@ -34,7 +34,7 @@ img{
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0 30px 0;
+  /* padding: 16px 0 30px 0; */
 }
 
 h1{
@@ -142,20 +142,28 @@ ul{
     }
     .about-area-img{
       width: 100%;
+      margin: 0 15px;
     }
     .about-area-description{
       width: 100%;
+      padding: 0;
+    }
+    .about-area-description-text{
+      padding: 0;
+    }
+    .title{
+      padding: 40px 0;
     }
   }
 
 #service h3{
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 .service-icon{
   text-align: center;
   font-size: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   color: #636363;
 }
 
@@ -206,17 +214,25 @@ button:hover{
 
 @media screen and (max-width:768px){
   body{
-    margin: 70px 20px 0 20px;
+    margin: 20px 30px 0 30px;
   }
   .form{
     width: 100%;
     margin: 0 auto 40px;
-  
+    
+  }
+  .service-section p{
+    padding-bottom: 20px;
+  }
+
+  .name{
+    padding:30px 0;
+  }
+  .container{
+    padding: 0;
   }
 }
-.form-text{
-  /* text-align: center; */
-}
+
 span{
   background-color: rgb(237, 129, 129);
   color: white;
@@ -230,9 +246,7 @@ footer{
 
 }
 
-.col-xs-12{
-  padding: 0 25px;
-}
+
 
 .copyright{
   position: relative;
