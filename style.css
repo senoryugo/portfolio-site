@@ -141,7 +141,7 @@ ul{
     }
     .about-area-img{
       width: 100%;
-      margin: 0 30px;
+      margin: 0 40px;
     }
     .about-area-description{
       width: 100%;
@@ -174,10 +174,20 @@ ul{
 }
 #works img{
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   height:220px;
-  /* width: 400px; */
   object-fit: cover;
+}
+
+.work-img a{
+  margin: 0;
+  padding: 0;
+}
+
+.work-img p{
+  padding: 0;
+  margin: 0 10px 20px;
+  font-family: sans-serif;
 }
 
 .form{
